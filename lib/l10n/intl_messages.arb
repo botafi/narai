@@ -1,0 +1,257 @@
+{
+  "@@last_modified": "2019-03-20T15:40:44.503476",
+  "language": "Language",
+  "@language": {
+    "description": "language",
+    "type": "text",
+    "placeholders": {}
+  },
+  "appTitle": "Narai",
+  "@appTitle": {
+    "description": "Name of the app - title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "playground": "Playground",
+  "@playground": {
+    "description": "Playground tab text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "learn": "Learn",
+  "@learn": {
+    "description": "Learn tab text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rating1Text": "Good work!",
+  "@rating1Text": {
+    "description": "rating for 1 star",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rating2Text": "Well done!",
+  "@rating2Text": {
+    "description": "rating for 2 stars",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rating3Text": "Very nice!",
+  "@rating3Text": {
+    "description": "rating for 3 stars",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lessons": "Lessons",
+  "@lessons": {
+    "description": "Lessons tab text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lesson": "Lesson",
+  "@lesson": {
+    "description": "Lesson tab text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "nextLesson": "Next lesson",
+  "@nextLesson": {
+    "description": "Next lesson button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "info": "Information",
+  "@info": {
+    "description": "Info tab text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings tab text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "result": "Result",
+  "@result": {
+    "description": "result of some operation",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rerun": "Run again",
+  "@rerun": {
+    "description": "Rerun program",
+    "type": "text",
+    "placeholders": {}
+  },
+  "run": "Run",
+  "@run": {
+    "description": "Run program",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanCards": "Scan cards",
+  "@scanCards": {
+    "description": "Scan cards",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanAdditionalCards": "Scan additional cards",
+  "@scanAdditionalCards": {
+    "description": "Scan additional cards",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cardsPreviewTitle": "Cards",
+  "@cardsPreviewTitle": {
+    "description": "Cards preview title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cardsPreviewSubtitle": "Preview of scanned cards - you can see your card program here. Make sure it's scanned correctly. On the right of the cards you can see what the line of cards equals to.",
+  "@cardsPreviewSubtitle": {
+    "description": "Cards preview title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "resultsPreviewSubtitle": "Result of running card program. You can see what you have returned and what should be the correct answer.",
+  "@resultsPreviewSubtitle": {
+    "description": "Results preview card subtitle",
+    "type": "text",
+    "placeholders": {}
+  },
+  "playgroundDescriptionSubtitle": "You can try your card programs here! You can use RETURN to show results.",
+  "@playgroundDescriptionSubtitle": {
+    "description": "Playground output card subtitle",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cards": "Cards",
+  "@cards": {
+    "description": "Cards",
+    "type": "text",
+    "placeholders": {}
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "resultsPreviewEmpty": "Run your card program and do something to see results here.",
+  "@resultsPreviewEmpty": {
+    "description": "Results preview card empty rows",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cardsPreviewEmpty": "Scan your cards to see them here.",
+  "@cardsPreviewEmpty": {
+    "description": "Cards preview card empty card program",
+    "type": "text",
+    "placeholders": {}
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success",
+    "type": "text",
+    "placeholders": {}
+  },
+  "error": "Error! Try again!",
+  "@error": {
+    "description": "Error try again",
+    "type": "text",
+    "placeholders": {}
+  },
+  "variableNotDeclared": "doesn't exist.",
+  "@variableNotDeclared": {
+    "description": "Variable is not declared",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lineNotCorrectPosition": "Card row is not in correct place, should be row {correctPosition}.",
+  "@lineNotCorrectPosition": {
+    "description": "Card line not correct position",
+    "type": "text",
+    "placeholders": {
+      "correctPosition": {
+        "example": 3
+      }
+    }
+  },
+  "lineNotFound": "Cards not found or put together correctly.",
+  "@lineNotFound": {
+    "description": "Card line not found.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "returnNotCorrectPosition": "{result} is not in correct place at {incorrectPosition}, should be {correctPosition}.",
+  "@returnNotCorrectPosition": {
+    "description": "Return not correct position",
+    "type": "text",
+    "placeholders": {
+      "result": {
+        "example": 452
+      },
+      "incorrectPosition": {},
+      "correctPosition": {
+        "example": 3
+      }
+    }
+  },
+  "returnNotFound": "{result} not found.",
+  "@returnNotFound": {
+    "description": "Return line not found.",
+    "type": "text",
+    "placeholders": {
+      "result": {
+        "example": 452
+      }
+    }
+  },
+  "notImplementedYet": "This feature hasn't been implemented yet. Coming soon!",
+  "@notImplementedYet": {
+    "description": "Nice text for not yet implemented feature.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cardsUnknowError": "Error! \n Can't understand your card program! \n Please check your cards and try again!",
+  "@cardsUnknowError": {
+    "description": "Unknown card parsing or interpretation error",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cardsKnownError": "Error in your card program! \n Can't understand line {line}! \n Please check your cards and try again!",
+  "@cardsKnownError": {
+    "description": "Known card parsing or interpretation error on line..",
+    "type": "text",
+    "placeholders": {
+      "line": {
+        "example": 3
+      }
+    }
+  },
+  "manual": "Manual",
+  "@manual": {
+    "description": "Manual",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cs": "Čeština",
+  "@cs": {
+    "description": "cs lang",
+    "type": "text",
+    "placeholders": {}
+  },
+  "en": "English",
+  "@en": {
+    "description": "en lang",
+    "type": "text",
+    "placeholders": {}
+  }
+}

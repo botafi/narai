@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Narai</string>
+    <string name="capture_title">Capture cards</string>
+    <string name="capture_done_button_text">Done</string>
+    <string name="info">Info</string>
+    <string name="camera_permission_rationale">Camera access is needed for scanning of cards.</string>
+    <string name="camera_no_good">No back-facing sufficiently capable camera available!</string>
+    <string name="camera_disabled">Camera is disabled by device policy.</string>
+    <string name="camera_disconnected">Camera was disconnected before it was opened.</string>
+    <string name="camera_error">Camera service reported an error.</string>
+    <string name="camera_unknown">Unknown camera error: %s</string>
+    <string name="camera_permission_denied_explanation">You\'ve denied a permission that the app needs for core functionality. If you selected &quot;don\'t ask again&quot; in the past then you need to use Settings to re-enable the permission.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="permission_camera_rationale">Camera access is needed for scanning of cards.</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="toggle_turn_on">Front</string>
+    <string name="toggle_turn_off">Back</string>
+    <string name="capture_clear_button_text">Clear</string>
+    <string name="id_cards">ID cards</string>
+</resources>

@@ -1,0 +1,1 @@
+flutter packages pub run intl_translation:generate_from_arb --output-dir=lib\l10n --no-use-deferred-loading lib\localization\appLocalizations.dart lib\l10n\intl_messages.arb lib\l10n\intl_cs.arb lib\l10n\intl_en.arb

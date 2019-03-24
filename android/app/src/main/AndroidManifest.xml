@@ -1,0 +1,49 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.botafi.narai"
+    >
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="27" android:maxSdkVersion="27"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="true"
+        >
+        <!--<meta-data-->
+            <!--android:name="com.botafi.firebase.ml.vision.DEPENDENCIES"-->
+            <!--android:value="barcode,text" />-->
+        <activity
+            android:name="com.botafi.narai.MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+            <!-- This keeps the window background of the activity showing
+                 until Flutter renders its first frame. It can be removed if
+                 there is no splash screen (such as the default splash screen
+                 defined in @style/LaunchTheme). -->
+            <meta-data
+                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+                android:value="true"
+                />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" android:label="@string/app_name"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.botafi.narai.ScannerActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat"
+            android:label="@string/capture_title"
+            android:hardwareAccelerated="true"
+            />
+    </application>
+</manifest>

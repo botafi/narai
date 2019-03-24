@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Narai</string>
+    <string name="capture_title">Skenování kartiček</string>
+    <string name="capture_done_button_text">Dokončit skenování</string>
+    <string name="info">Informace</string>
+    <string name="ok">Potvrdit</string>
+    <string name="settings">Nastavení</string>
+    <string name="toggle_turn_on">Přední</string>
+    <string name="toggle_turn_off">Zadní</string>
+    <string name="camera_permission_rationale">Přístup k fotoaparátu je potřeba z důvodu skenování kartiček.</string>
+    <string name="permission_camera_rationale">Přístup k fotoaparátu je potřeba z důvodu skenování kartiček.</string>
+    <string name="camera_permission_denied_explanation">Odebrali jste přístup k fotoaparátu, který je potřeba pro skenování karitček.</string>
+    <string name="camera_no_good">Zadní kamera nebyla nalezena, nebo není podporována.</string>
+    <string name="camera_disabled">Fotoaparát je vypnutý z důvodu nařízení zařízení.</string>
+    <string name="camera_disconnected">Kamera byla odpojena, než se stihla zapnout.</string>
+    <string name="camera_error">Služba fotoaparátu narazila na chybu.</string>
+    <string name="camera_unknown">Neznámá chyba kamery: %s</string>
+    <string name="no_camera_permission">Aplikace nemůže běžet z důvodu, že nemá přístup k fotoaparátu.</string>
+    <string name="capture_clear_button_text">Znovu</string>
+    <string name="id_cards">Karty s ID</string>
+</resources>

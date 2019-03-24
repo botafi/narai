@@ -1,0 +1,154 @@
+[
+  {
+    "name": "math",
+    "requiredStars": 0,
+    "maxStars": 3,
+    "cs": {
+      "title": "Čísla a matematika",
+      "shortDescription": "Naučíš se, jak z kartiček sestavit čísla a jak s čísly počítat.",
+      "description": "Matematika je základem programování, proto je potřeba s ní začít.\n\n## Čísla\nMáme kartičky s čísli **0**-**9** Jakékoliv číslice vedle sebe se spojí do jednoho čísla. Takto z kartiček číslic můžeme udělat vetší čísla.\nNapříklad **karta 1** a **karta 0** vedle sebe se spojí do čísla **10**.\n![card for number 1](resource:assets/cards/1.png#83x47) ![card for number 0](resource:assets/cards/0.png#83x47)\n\n\n## Matematika\nKartičkami můžeme provádět všechny matematické operace.\n\nSčítání: ![addition](resource:assets/cards/ADD.png#83x47)\n\nOdčítání: ![substraction](resource:assets/cards/SUBSTRACT.png#83x47)\n\nNásobení: ![multiplication](resource:assets/cards/MULTIPLY.png#83x47)\n\nDělení: ![division](resource:assets/cards/DIVIDE.png#83x47)\n\n\n## Další pomocné karty\n### Závorky\nJsou zde i kartičky závorek, které fungují stejně jako v matematice.\nNapříklad: *10 - 5 x 2 = 0* **oproti** *(10 - 5) x 2 = 10* ... často se hodí.\n\nLevá a pravá závorka: ![left bracket](resource:assets/cards/LEFT_BRACKET.png#68x47) ![right bracket](resource:assets/cards/RIGHT_BRACKET.png#68x47)\n\n### Mezery mezi čísly\n\nPokud bychom chtěli v speciálních případech zamezit spojování čísel, tak můžeme použít **kartu mezery**.\nNapříklad: **karta 1** a **karta 0** s mezerou uprostřed nám dá samotnou **1** a **0**.\n![card for number 1](resource:assets/cards/1.png#83x47) ![space card](resource:assets/cards/SPACE.png#68x47) ![card for number 0](resource:assets/cards/0.png#83x47)\n\n## Úkol\nTvým úkolem bude **vypočítat nebo složit** na první řádek číslo **35** a na druhý řádek číslo **81**.\nMůžeš použít **jakékoliv** matematické operace, nebo jen čísla.\n\n**Vyzkoušej si to!**"
+    },
+    "en": {
+      "title": "Numbers and math",
+      "shortDescription": "You will learn how to write numbers and do math using cards.",
+      "description": "Math is the basis of programming. Almost all cards work with numbers! Here is everything you need to know now.\n\n## Numbers\nYou can combine cards with numbers to create larger numbers.\nFor example: **card 1** and **card 0** next to each other will give you number **10**.\n![card for number 1](resource:assets/cards/1.png#83x47) ![card for number 0](resource:assets/cards/0.png#83x47)\n\n\n## Math\nYou can do any math operation using cards. Here are basic operations!\n\nAddition: ![addition](resource:assets/cards/ADD.png#83x47)\n\nSubstraction: ![substraction](resource:assets/cards/SUBSTRACT.png#83x47)\n\nMultiplication: ![multiplication](resource:assets/cards/MULTIPLY.png#83x47)\n\nDivision: ![division](resource:assets/cards/DIVIDE.png#83x47)\n\n\n## Additional helper cards\n### Brackets\nAdditionaly you can use brackets for priority calculation like you do in math.\nFor example: *10 - 5 x 2 = 0* **vs** *(10 - 5) x 2 = 10* ... very useful.\n\nLeft and right bracket: ![left bracket](resource:assets/cards/LEFT_BRACKET.png#68x47) ![right bracket](resource:assets/cards/RIGHT_BRACKET.png#68x47)\n\n### Number spaces\nAny numbers next each other will combine into one. If you don't want them to combine on some special occasion you can use **space card**.\nFor example: **card 1** and **card 0** next to each other with **space card** in the middle will give you numbers 1 and 0.\n![card for number 1](resource:assets/cards/1.png#83x47) ![space card](resource:assets/cards/SPACE.png#68x47) ![card for number 0](resource:assets/cards/0.png#83x47)\n\n## Task\nYour task will be to calculate or write **number 35 on first line** and **number 81 on second line**.\nYou can use **any** math operations or just the number cards.\n\n**Try it out!**"
+    },
+    "lessonTests": [
+      {
+        "expectReturns": [],
+        "expectVariables": [],
+        "expectFunctions": [],
+        "expectOutput": [
+          "35",
+          "81"
+        ],
+        "expectLines": [],
+        "injectVariables": []
+      }
+    ]
+  },
+  {
+    "name": "variables",
+    "requiredStars": 3,
+    "cs": {
+      "title": "Proměnné - ukládání hodnot",
+      "shortDescription": "Naučíš se používat proměnné pro ukládání a získávání hodnot.",
+      "description": "Proměnné jsou podstatné pro programování. Bez nich by si počítač nic po výpočtech nezapamatoval. Pomocí proměnných můžeš ukládat čísla a výpočty, abys je použil na mnoha místech bez toho aniž by ses musel opakovat.\n\nNaučíš se používat proměnné k **ukládání** a **vytahování** hodnot. Proměnné mají nějaká **jména**, aby počítač věděl, na jakou proměnnou se ptáme. Použiješ jméno proměnné k uložení hodnoty do ní. Poté přes stejné jméno si můžeš získat zpět tu uloženou hodnotu.\n\n### Získání hodnoty\n**Karta proměnné** se používá, aby počítač věděl, že chceme pracovat s proměnnou.\n ![variable card](resource:assets/cards/VAR.png#96x47)\n \n **Karta jména** je použitá jako jméno té proměnné. Kartu jména položíš hned **za** kartu proměnné.\n ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n \nPokud položíš vedle sebe jen **kartu proměnné** and  **kartu jména**, tak dostaneš aktuální hodnotu v proměnné.\n Bude to vypadat takto: ![variable card](resource:assets/cards/VAR.png#48x24) ![b card](resource:assets/cards/b.png#42x24)\n \n ### Uložení hodnoty\nPro uložení hodnoty do proměnné použiješ **kartu dosazení**. Kartu dosazení stačí dát za název proměnné, a poté hodnotu, kterou chceš uložit. Šipka na **kartě dosazení** ukazuje, že hodnota jde do proměnné.\nDosazení: ![assign card](resource:assets/cards/EQUALS.png#96x47)\n\nUložení hodnoty 5 bude to vypadat takto:\n  ![variable card](resource:assets/cards/VAR.png#48x24) ![a card](resource:assets/cards/a.png#42x24) ![equals card](resource:assets/cards/EQUALS.png#48x24) ![card for number 5](resource:assets/cards/5.png#42x24)\n\n ### Matematické operace na proměnné\n Pokud bys chtěl do proměnné nápříklad přičíst nějaké číslo, tak by to šlo napsat:\n \n![variable card](resource:assets/cards/VAR.png#48x24) ![a card](resource:assets/cards/a.png#42x24) ![equals card](resource:assets/cards/EQUALS.png#48x24) ![variable card](resource:assets/cards/VAR.png#48x24) ![a card](resource:assets/cards/a.png#42x24) ![additon card](resource:assets/cards/ADD.png#42x24) ![card for number 5](resource:assets/cards/5.png#42x24)\n\nUkládáme do proměnné A hodnotu A plus 5, takže proměnná A bude o 5 větší.\nMůžeme to ale zkrátit:\n\n  ![variable card](resource:assets/cards/VAR.png#48x24)  ![a card](resource:assets/cards/a.png#42x24)  ![equals card](resource:assets/cards/EQUALS.png#48x24) ![additon card](resource:assets/cards/ADD.png#42x24)  ![card for number 5](resource:assets/cards/5.png#42x24)\n\nLze si říct, že do proměnné A \"míří\" plus 5.\nTohle lze použít se všemi matematickými operacemi.\n\n## Úkol\nVyzkoušej si práci s proměnnými. **Ulož do nich** nějakou hodnotu a **použij je v počítání**.\nNa konci programu bude kontrola, zda v **proměnné A** je **číslo 5**.\n\n## Použité karty\nSčítání: ![additon card](resource:assets/cards/ADD.png#83x47)\n\nOdčítání: ![substraction card](resource:assets/cards/SUBSTRACT.png#83x47)\n\nNásobení: ![multiplication card](resource:assets/cards/MULTIPLY.png#83x47)\n\nDělení: ![multiplication card](resource:assets/cards/DIVIDE.png#83x47)\n\nProměnná: ![variable card](resource:assets/cards/VAR.png#96x47)\n\nJména: ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n\nDosazení: ![repeat card](resource:assets/cards/EQUALS.png#96x47)\n\nČíslice: ![card for number 1](resource:assets/cards/1.png#83x47)   ![card for number 0](resource:assets/cards/0.png#83x47)"
+    },
+    "en": {
+      "title": "Variables - storing values",
+      "shortDescription": "You will learn how to store and get back values using variables.",
+      "description": "Variables are fundamental for programming. Without them computer programs would not have any memory to remember last values that were calculated. You can store calculations in them and use the result in many places without repeating the calculation over and over again.\n\nYou will learn how to use variables to **store and get back values**. Variables **have names**. You use variable name to assign value to variable (store value in) and get current variable value.\n\n### Storing value\n**Variable card** is used to indicate you want to do something with variable.\n ![variable card](resource:assets/cards/VAR.png#96x47)\n \n **Name card** is used as name of variable. You will place it after **variable card**.\n ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n \n When you use just  **variable card** and  **name card**, you will get current value of variable.\n It will look like this: ![variable card](resource:assets/cards/VAR.png#48x24) ![b card](resource:assets/cards/b.png#42x24)\n \n ### Getting back value\nTo assign value to variable you will need **assign card**. You will place variable before it and value after it. Arrow on **assign card** indicates that the value goes into variable.\nAssign: ![repeat card](resource:assets/cards/EQUALS.png#96x47)\n\nIt will look like this: ![variable card](resource:assets/cards/VAR.png#48x24) ![a card](resource:assets/cards/a.png#42x24) ![equals card](resource:assets/cards/EQUALS.png#48x24) ![card for number 5](resource:assets/cards/5.png#42x24)\n\n\n## Task\nTry some **storing of values**, use **them in calculations**.\nYour task will be to assign **number 5** to **variable A**.\n\n## Cards used\nAdditon: ![additon card](resource:assets/cards/ADD.png#83x47)\n\nSubstraction: ![substraction card](resource:assets/cards/SUBSTRACT.png#83x47)\n\nMultiplication: ![multiplication card](resource:assets/cards/MULTIPLY.png#83x47)\n\nDivision: ![multiplication card](resource:assets/cards/DIVIDE.png#83x47)\n\nVariable: ![variable card](resource:assets/cards/VAR.png#96x47)\n\nNames: ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n\nAssign: ![repeat card](resource:assets/cards/EQUALS.png#96x47)\n\nNumbers: ![card for number 1](resource:assets/cards/1.png#83x47)   ![card for number 0](resource:assets/cards/0.png#83x47)"
+    },
+    "lessonTests": [
+      {
+        "expectReturns": [],
+        "expectVariables": [
+          {
+            "name": "a",
+            "value": "5"
+          }
+        ],
+        "expectFunctions": [],
+        "expectOutput": [],
+        "expectLines": []
+      }
+    ]
+  },
+  {
+    "name": "repeat",
+    "requiredStars": 6,
+    "maxStars": 3,
+    "cs": {
+      "title": "Opakovací blok s počtem",
+      "shortDescription": "Naučíš se vytvořit program, který dělá nějakou akci opakovaně.",
+      "description": "V programování se pro opakování nějaké stejné věci používají *smyčky*. Smyčky opakují nějakou akci uvnitř, když platí určitá podmínka. Tady máme zjednodušenou verzi a to opakovací blok pomocí **karty opakování**. Blok je to z důvodu, že umisťujeme nějaké kartičky (instrukce) dovnitř.\n\nKarta opakování: ![repeat card](resource:assets/cards/REPEAT.png#105x47)\n\nKarta opakování bude opakovat cokoliv, co bude pod ní v bloku, tolikrát, kolik řekneme. Počet opakování můžeme uvést číslem nebo proměnnou vedle karty opakování.\n\nOpakovací blok musíme zakončit **kartou ukončení bloku**, aby počítač věděl, co všechno má opakovat.\n\nUkončení bloku: ![repeat card](resource:assets/cards/END.png#105x47)\n\n## Úkol\nTvým úkolem bude **8 krát** vrátit **číslo 1** pomocí opakovacího bloku.\n**Zkus opakování pomocí čísel a proměnných!**\nVždy je tu hřiště, kde je možné vyzkoušet cokoliv.\n\n## Použité karty\n\nProměnná: ![variable card](resource:assets/cards/VAR.png#96x47)\n\nJména: ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n\nOpakování: ![repeat card](resource:assets/cards/REPEAT.png#105x47)\n\nUkončení: ![repeat card](resource:assets/cards/END.png#96x47)\n\nVrátit: ![return card](resource:assets/cards/RETURN.png#96x47)\n\nČíslice: ![card for number 1](resource:assets/cards/1.png#83x47)   ![card for number 8](resource:assets/cards/8.png#83x47)"
+    },
+    "en": {
+      "title": "Repeat",
+      "shortDescription": "How to do things repeatedly, many times.",
+      "description": "If you want to do task repeatedly in programming, you use something called *loops*. Here they are represented using **repeat card**.\n\nRepeat card: ![repeat card](resource:assets/cards/REPEAT.png#105x47)\n\nRepeat card will repeat anything under it, how many times you tell it to. You can put number or variable next to it and it will repeat exactly that many times.\n\nAlso you will need to end the repeat somewhere, so you will use **end card** to do so.\n\nEnd card: ![repeat card](resource:assets/cards/END.png#105x47)\n\n## Task\nYour task will be to return **8 times** **number 1** using **repeat card**.\n**Try repeat using numbers and variables!**\n\n## Cards used\n\nVariable: ![variable card](resource:assets/cards/VAR.png#96x47)\n\nNames: ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n\nRepeat: ![repeat card](resource:assets/cards/REPEAT.png#105x47)\n\nEnd: ![repeat card](resource:assets/cards/END.png#96x47)\n\nReturn: ![return card](resource:assets/cards/RETURN.png#96x47)\n\nNumbers: ![card for number 1](resource:assets/cards/1.png#83x47)   ![card for number 8](resource:assets/cards/8.png#83x47)"
+    },
+    "lessonTests": [
+      {
+        "expectReturns": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "expectVariables": [],
+        "expectFunctions": [],
+        "expectOutput": [],
+        "expectLines": [],
+        "injectVariables": []
+      }
+    ]
+  },
+  {
+    "name": "factorial",
+    "requiredStars": 9,
+    "maxStars": 3,
+    "cs": {
+      "title": "Math - Factorial of number",
+      "shortDescription": "Naučíš se, co je to faktoriál a jak ho pomocí programu vypočítat.",
+      "description": "Faktoriál je operace v matematice napsaná pomocí vykřičníku *!* za číslem. Faktoriál je operace, kdy se za sebou násobí číslo samosebou o 1 menší až do čísla 1.\nNapříklad *5!* je počítáno následovně:\n\n> **5!** = 5 x 4 x 3 x 2 x 1 = **120**\n\n**Je dáno**, že *0! = 1*. Pozor, bude se kontrolovat!\n\n\n## Úkol\nTvým úkolem bude sestavit **program na výpočet faktoriálu**.\n\nČíslo, z kterého máš faktoriál vypočítat, je uloženo v **proměnné C**.\nAž faktoriál čísla vypočítáš, tak ho vrať pomocí **karty vrácení**.\n\n###Nápověda\nBudeš muset použít **opakovací blok**, abys číslo několikrát vynásobil.\nTaké můžeš použít okamžité vynásobení proměnné pomocí **karty dosazení** hned s **kartou násobení**.\n\n\n## Použité karty\nSčítání: ![additon card](resource:assets/cards/ADD.png#83x47)\n\nOdčítání: ![substraction card](resource:assets/cards/SUBSTRACT.png#83x47)\n\nNásobení: ![multiplication card](resource:assets/cards/MULTIPLY.png#83x47)\n\nProměnná: ![variable card](resource:assets/cards/VAR.png#96x47)\n\nJména: ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n\nDosazení: ![repeat card](resource:assets/cards/EQUALS.png#96x47)\n\nOpakování: ![repeat card](resource:assets/cards/REPEAT.png#105x47)\n\nVrátit: ![return card](resource:assets/cards/RETURN.png#96x47)\n\nUkončení: ![repeat card](resource:assets/cards/END.png#96x47)\n\nČíslice: ![card for number 1](resource:assets/cards/1.png#83x47)   ![card for number 0](resource:assets/cards/0.png#83x47)\n\n### Příklad okamžitého vynásobení proměnné:\n\n![variable card](resource:assets/cards/VAR.png#48x24) ![C card](resource:assets/cards/c.png#42x24) ![equals card](resource:assets/cards/EQUALS.png#48x24) ![multiplication card](resource:assets/cards/MULTIPLY.png#42x24) ![card for number 5](resource:assets/cards/5.png#42x24)"
+    },
+    "en": {
+      "title": "Math - Factorial of number",
+      "shortDescription": "You will learn what is factorial and how do you calculate it",
+      "description": "Factorial is an operation in math written using exclamation mark *!* after number. Factorial is operation where you multiply by one less of a number consecutively.\nFor example *5!* is calculated as follows:\n\n> **5!** = 5 x 4 x 3 x 2 x 1 = **120**\n\nIt is **declared that** *0! = 1*. Remember that! ...you will need it.\n\n\n## Task\nYour task will be to **write factorial calculation**.\n\nThe number that you will need to calculate factorial for will be stored in **variable C**.\nYou will need to use **repeat card** to multiply consecutively.\nAfter you calculate it, you can return the result using **return card**.\nAlso you could use variable immediate multiplication using **variable card** following by **equals card**, **multiplication card** and number to multiply by.\n\n\n## Cards used\nAdditon: ![additon card](resource:assets/cards/ADD.png#83x47)\n\nSubstraction: ![substraction card](resource:assets/cards/SUBSTRACT.png#83x47)\n\nMultiplication: ![multiplication card](resource:assets/cards/MULTIPLY.png#83x47)\n\nVariable: ![variable card](resource:assets/cards/VAR.png#96x47)\n\nNames: ![A card](resource:assets/cards/a.png#83x47)   ![B card](resource:assets/cards/b.png#83x47)   ![C card](resource:assets/cards/c.png#83x47)\n\nAssign: ![repeat card](resource:assets/cards/EQUALS.png#96x47)\n\nRepeat: ![repeat card](resource:assets/cards/REPEAT.png#105x47)\n\nReturn: ![return card](resource:assets/cards/RETURN.png#96x47)\n\nEnd: ![repeat card](resource:assets/cards/END.png#96x47)\n\nNumbers: ![card for number 1](resource:assets/cards/1.png#83x47)   ![card for number 0](resource:assets/cards/0.png#83x47)\n\n### Variable immediate multiplication example:\n\n![variable card](resource:assets/cards/VAR.png#48x24) ![C card](resource:assets/cards/c.png#42x24) ![equals card](resource:assets/cards/EQUALS.png#48x24) ![multiplication card](resource:assets/cards/MULTIPLY.png#42x24) ![card for number 5](resource:assets/cards/5.png#42x24)"
+    },
+    "lessonTests": [
+      {
+        "expectReturns": [
+          "120"
+        ],
+        "expectVariables": [],
+        "expectFunctions": [],
+        "expectOutput": [],
+        "expectLines": [],
+        "injectVariables": [
+          {
+            "name": "c",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "expectReturns": [
+          "1"
+        ],
+        "expectVariables": [],
+        "expectFunctions": [],
+        "expectOutput": [],
+        "expectLines": [],
+        "injectVariables": [
+          {
+            "name": "c",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "expectReturns": [
+          "1"
+        ],
+        "expectVariables": [],
+        "expectFunctions": [],
+        "expectOutput": [],
+        "expectLines": [],
+        "injectVariables": [
+          {
+            "name": "c",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  }
+]
